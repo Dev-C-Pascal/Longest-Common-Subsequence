@@ -10,3 +10,10 @@ class Solution:
                 else:
                     matrix[i][j] = max(matrix[i][j + 1], matrix[i + 1][j])
         return matrix[0][0]
+
+
+text1 = "colour"
+text2 = "colors"
+
+a = Solution()
+print(a.longestCommonSubsequence(text1, text2))
