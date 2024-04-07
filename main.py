@@ -13,7 +13,7 @@ class Solution:
 
 
 text1 = "colour"
-text2 = "colors"
+text2 = "ccr"
 
 a = Solution()
 print(a.longestCommonSubsequence(text1, text2))
